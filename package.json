@@ -1,0 +1,53 @@
+{
+  "name": "cs441_project",
+  "version": "1.0.0",
+  "description": "Developing a new application for my Software Engineering class",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "@babel/proposal-class-properties"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cid003/cs441_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cid003/cs441_project/issues"
+  },
+  "homepage": "https://github.com/cid003/cs441_project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "react-hot-loader": "^4.3.12",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-burger-menu": "^2.5.4",
+    "react-dom": "^16.6.0",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1"
+  }
+}
+
