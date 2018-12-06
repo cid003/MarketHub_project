@@ -18,14 +18,14 @@ export default class ProductDescription extends Component {
           <div class="main-product-container">
             <div class="product-container">
               <div class="product-image-container">
-                <img class="product-image" src="http://101qs-media.s3.amazonaws.com/largethumbs/462-mini-pizzas.jpg" alt="Pizza"/>
+                <img class="product-image" src="https://i.imgur.com/TbPLRvZ.jpg" alt="Pizza"/>
               </div>
             </div>
             <div class="product-container">
               <div class="w3-container">
-                <p class="w3-xlarge">Miniature Pizza Cutter</p>
+                <p class="w3-xlarge">shorts</p>
                 <p class="w3-large">Seller: Dominitos</p>
-                <p class="w3-large">Price: $9.00</p>
+                <p class="w3-large">Price: $59.99</p>
                 <p class="w3-large">Quantity: &nbsp;
                 <select>
                   <option value="1">1</option>

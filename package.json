@@ -1,5 +1,5 @@
 {
-  "name": "cs441_project",
+  "name": "MarketHub_project",
   "version": "1.0.0",
   "description": "Developing a new application for my Software Engineering class",
   "main": "index.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cid003/cs441_project.git"
+    "url": "git+https://github.com/cid003/MarketHub_project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cid003/cs441_project/issues"
+    "url": "https://github.com/cid003/MarketHub_project/issues"
   },
-  "homepage": "https://github.com/cid003/cs441_project#readme",
+  "homepage": "https://github.com/cid003/MarketHub_project#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -50,4 +50,3 @@
     "react-router-dom": "^4.3.1"
   }
 }
-

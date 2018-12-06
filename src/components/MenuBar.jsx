@@ -32,7 +32,7 @@ export default class MenuBar extends Component {
         return (
             <nav className="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style={{zIndex:3, width:250}} id="mySidebar">
                 <div className="w3-container w3-display-container w3-padding-16">
-                    <h3 className="w3-wide"><b>MarketHub</b></h3>
+                    <h3 className="w3-wide"><b><Link to="/" className="w3-bar-item w3-button">MarketHub</Link></b></h3>
                 </div>
                 <div className="w3-padding-64 w3-large w3-text-grey" style={{fontWeight:'bold'}}>
                     <Link to="/product" className="w3-bar-item w3-button">Pants</Link>
@@ -40,7 +40,7 @@ export default class MenuBar extends Component {
                     <a onClick={this.goHome} className="w3-bar-item w3-button">Shoes</a>
                     <a onClick={this.goHome} className="w3-bar-item w3-button">Jewelry</a>
                     <a onClick={this.goHome} className="w3-bar-item w3-button">Furniture</a>
-                    <a onClick={this.goHome} className="w3-bar-item w3-button">Sign In</a>
+                    <Link to="/settings" className="w3-bar-item w3-button">Account Settings</Link>
                 </div>
             </nav>
         )
